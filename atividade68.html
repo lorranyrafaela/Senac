@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let total_estoque = 0;
+        let num_mercadorias = parseInt(prompt("Digite o número de mercadorias:"));
+
+
+        for (let i = 1; i <= num_mercadorias; i++) {
+            let valor_mercadoria = parseFloat(prompt(`Digite o valor da mercadoria ${i}:`));
+            total_estoque += valor_mercadoria;
+        }
+
+        let media = total_estoque / num_mercadorias;
+
+        
+        console.log(`A média de valor por mercadoria em estoque é: ${media.toFixed(2)}`);
+        console.log(`O valor total em estoque é: ${total_estoque.toFixed(2)}`);
+    </script>
+</body>
+</html>
