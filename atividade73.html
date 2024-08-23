@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let habitantes =  [
+            {
+              filhos: 0,
+              salario: 5000
+            },
+            {
+              filhos: 3,
+              salario: 500
+            },
+            {
+              filhos: 1,
+              salario: 149
+            },
+            {
+              filhos: 3,
+              salario: 500
+            },
+            {
+              filhos: 1,
+              salario: 149
+            },
+            {
+              filhos: 3,
+              salario: 500
+            },
+            {
+              filhos: 1,
+              salario: 149
+            },
+          ]
+          let soma = 0
+          let soma_filhos = 0
+          let maior_salario = 0
+          let pessoas_salario = 0
+
+          for(let i=0; i < habitantes.length ; i++){            
+            soma = soma + habitantes[i].salario
+            soma_filhos = soma_filhos + habitantes[i].filhos 
+
+            if(habitantes[i].salario > maior_salario) { 
+              maior_salario = habitantes[i].salario
+            }
+
+            if(habitantes[i].salario < 150){
+              pessoas_salario++
+            }
+          }
+
+          
+          console.log('maior salario  lido =  ' + maior_salario);
+          console.log('media salario = ' + (soma/habitantes.length))
+          console.log('media filhos = ' + (soma_filhos/habitantes.length))
+          console.log('% de pessoas que recebem menos que 150 = ' + ((pessoas_salario * 100) / habitantes.length))
+    </script>
+</body>
+</html>
