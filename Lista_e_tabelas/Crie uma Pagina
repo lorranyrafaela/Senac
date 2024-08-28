@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os cursos oferecidos pelo Senac no CEP Cora Coralina. Matrículas abertas para cursos de Programação, Administração de Banco de Dados e mais.">
+    <title>Divulgação de Cursos - Senac</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo_senac.png" alt="Logo do Senac" style="width: 200px;">
+    </header>
+
+    <h1>CEP Cora Coralina</h1>
+    <h2>Matrículas Abertas</h2>
+
+    <section>
+        <h3>Critérios para Matrícula</h3>
+        <p>• Idade igual ou superior a 16 anos</p>
+        <p>• Estar cursando ou ter concluído o Ensino Médio</p>
+    </section>
+
+    <section>
+        <h3>Lista de Cursos</h3>
+        <table>
+            <caption>Detalhes dos Cursos Oferecidos</caption>
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Carga Horária</th>
+                    <th>Turno</th>
+                    <th>Instrutor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programador Web</td>
+                    <td>120</td>
+                    <td>Vespertino</td>
+                    <td>José Carlos</td>
+                </tr>
+                <tr>
+                    <td>Programador de Sistemas</td>
+                    <td>200</td>
+                    <td>Matutino</td>
+                    <td>Hugo</td>
+                </tr>
+                <tr>
+                    <td>Administrador de Banco de Dados</td>
+                    <td>200</td>
+                    <td>Matutino</td>
+                    <td>Adriana</td>
+                </tr>
+                <tr>
+                    <td>Técnico em Informática</td>
+                    <td>200</td>
+                    <td>Noturno</td>
+                    <td>Danielle</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
